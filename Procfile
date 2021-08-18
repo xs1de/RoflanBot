@@ -1,1 +1,1 @@
-worker: node RoflanBot.py
+worker: node roflanbot.py
