@@ -43,7 +43,7 @@ async def fresco(ctx, *, text = "дебил текст введи"):
         MAX_W, MAX_H = 1280, 720
         im = Image.open("Fresco/fresco.jpg")
         draw = ImageDraw.Draw(im)
-        font = ImageFont.truetype('/Fresco/pala.ttf', 70)
+        font = ImageFont.truetype('Fresco/pala.ttf', 70)
 
         current_h, pad = 50, 10
         for line in para:
